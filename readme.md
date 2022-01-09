@@ -1,9 +1,26 @@
-Projet LineUp3 Romann CORNET et Thomas DELATTRE
+# ( Librairie nécessaire : JavaFX )
 
-Il y a deux .jar éxecutables, 
-le premier est le jeu textuel,
-l'autre est le jeu graphique et doit donc être lancé avec la lib javaFX en arguments.
+# Deux modes de jeu :
 
-L'UML est généré avec Object Aid
+ - Graphique :
+```
+java --module-path "**lien vers le SDK JavaFX**\lib" --add-modules=javafx.controls,javafx.swing,javafx.fxml -jar "git\Jeu-Du-Moulin\graphique.jar"
+```
+ - Textuel :
+```
+java --module-path "**lien vers le SDK JavaFX**\lib" --add-modules=javafx.controls,javafx.swing,javafx.fxml -jar "git\Jeu-Du-Moulin\textuel.jar"
+```
 
-Bon jeu :)
+
+
+
+# Membres de l'équipe
+
+ - Thomas Delattre
+ - Romann Cornet
+
+# UML
+
+ L'UML est généré avec Object Aid
+
+# Bon jeu :)
