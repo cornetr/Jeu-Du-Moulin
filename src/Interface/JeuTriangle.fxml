@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interface.MonControllerJeuTriangle">
+   <children>
+      <Pane fx:id="plateau" prefHeight="400.0" prefWidth="480.0" style="-fx-border-color: black;">
+         <children>
+            <VBox alignment="CENTER" prefHeight="400.0" prefWidth="480.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="68.0" prefWidth="400.0">
+                     <children>
+                        <Circle fx:id="circle31" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="63.0" prefWidth="400.0">
+                     <children>
+                        <Circle fx:id="circle21" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="44.0" prefWidth="400.0" spacing="2.0">
+                     <children>
+                        <Circle fx:id="circle36" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fx:id="circle26" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="40.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fx:id="circle16" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="70.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fx:id="circle11" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="circle12" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="70.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fx:id="circle22" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="40.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fx:id="circle32" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets top="10.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="47.0" prefWidth="400.0" spacing="30.0">
+                     <children>
+                        <Circle fx:id="circle15" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="circle14" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="circle13" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="59.0" prefWidth="400.0" spacing="95.0">
+                     <children>
+                        <Circle fx:id="circle25" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="circle24" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="circle23" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="65.0" prefWidth="480.0" spacing="170.0">
+                     <children>
+                        <Circle fx:id="circle35" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="circle34" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle fx:id="circle33" fill="DODGERBLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Line fx:id="line31_32" endX="327.0" endY="171.0" startX="249.0" startY="49.0" strokeWidth="5.0" />
+            <Line fx:id="line32_33" endX="334.0" endY="189.0" layoutX="10.0" layoutY="10.0" startX="427.0" startY="342.0" strokeWidth="5.0" />
+            <Line fx:id="line33_34" endX="235.0" endY="348.0" layoutX="20.0" layoutY="20.0" startX="405.0" startY="348.0" strokeWidth="5.0" />
+            <Line fx:id="line34_35" endX="25.0" endY="338.0" layoutX="30.0" layoutY="30.0" startX="195.0" startY="338.0" strokeWidth="5.0" />
+            <Line fx:id="line35_36" endX="18.0" endY="323.0" layoutX="30.0" layoutY="30.0" startX="107.0" startY="168.0" strokeWidth="5.0" />
+            <Line fx:id="line36_31" endX="124.0" endY="140.0" layoutX="30.0" layoutY="30.0" startX="202.0" startY="18.0" strokeWidth="5.0" />
+            <Line fx:id="line25_26" endX="82.0" endY="251.0" layoutX="40.0" layoutY="40.0" startX="128.0" startY="172.0" strokeWidth="5.0" />
+            <Line fx:id="line26_21" endX="145.0" endY="144.0" layoutX="40.0" layoutY="40.0" startX="192.0" startY="71.0" strokeWidth="5.0" />
+            <Line fx:id="line24_25" endX="82.0" endY="257.0" layoutX="50.0" layoutY="50.0" startX="173.0" startY="257.0" strokeWidth="5.0" />
+            <Line fx:id="line23_24" endX="288.0" endY="246.0" layoutX="60.0" layoutY="60.0" startX="197.0" startY="246.0" strokeWidth="5.0" />
+            <Line fx:id="line22_23" endX="289.0" endY="221.0" layoutX="70.0" layoutY="70.0" startX="242.0" startY="144.0" strokeWidth="5.0" />
+            <Line fx:id="line21_22" endX="215.0" endY="104.0" layoutX="80.0" layoutY="80.0" startX="170.0" startY="30.0" strokeWidth="5.0" />
+            <Line fx:id="line14_15" endX="135.0" endY="163.0" layoutX="90.0" layoutY="90.0" startX="105.0" startY="163.0" strokeWidth="5.0" />
+            <Line fx:id="line13_14" endX="185.0" endY="153.0" layoutX="100.0" layoutY="100.0" startX="155.0" startY="153.0" strokeWidth="5.0" />
+            <Line fx:id="line12_13" endX="182.0" endY="128.0" layoutX="110.0" layoutY="110.0" startX="173.0" startY="118.0" strokeWidth="5.0" />
+            <Line fx:id="line11_12" endX="143.0" endY="81.0" layoutX="120.0" layoutY="120.0" startX="133.0" startY="70.0" strokeWidth="5.0" />
+            <Line fx:id="line16_11" endX="100.0" endY="60.0" layoutX="130.0" layoutY="130.0" startX="90.0" startY="72.0" strokeWidth="5.0" />
+            <Line fx:id="line15_16" endX="58.0" endY="88.0" layoutX="140.0" layoutY="140.0" startX="48.0" startY="99.0" strokeWidth="5.0" />
+            <Line fx:id="line24_34" endX="90.0" endY="171.0" layoutX="150.0" layoutY="150.0" startX="90.0" startY="203.0" strokeWidth="5.0" />
+            <Line fx:id="line14_24" endX="80.0" endY="108.0" layoutX="160.0" layoutY="160.0" startX="80.0" startY="131.0" strokeWidth="5.0" />
+            <Line fx:id="line22_32" endX="141.0" endY="9.0" layoutX="180.0" layoutY="180.0" startX="139.0" startY="10.0" strokeWidth="5.0" />
+            <Line fx:id="line12_22" endX="109.0" endY="24.0" layoutX="180.0" layoutY="180.0" startX="105.0" startY="26.0" strokeWidth="5.0" />
+            <Line fx:id="line16_26" endX="1.0" endY="13.0" layoutX="190.0" layoutY="190.0" startX="4.0" startY="15.0" strokeWidth="5.0" />
+            <Line fx:id="line26_36" endX="-30.0" endY="-2.0" layoutX="190.0" layoutY="190.0" startX="-28.0" startY="-1.0" strokeWidth="5.0" />
+         </children></Pane>
+      <VBox alignment="CENTER_LEFT" prefHeight="400.0" prefWidth="220.0" style="-fx-background-color: lightgrey;">
+         <children>
+            <HBox prefHeight="20.0" prefWidth="200.0">
+               <children>
+                  <Label text="J1 pions restants : ">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <Label fx:id="labelJ1Restants" text="0" />
+               </children>
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="220.0">
+               <children>
+                  <Label text="J2 pions restants : ">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <Label fx:id="labelJ2Restants" text="0" />
+               </children>
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="40.0" prefWidth="220.0">
+               <children>
+                  <Label text="Nombre de tours : ">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Label>
+                  <Label fx:id="lbNbTours" text="0" />
+               </children>
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="67.0" prefWidth="220.0">
+               <children>
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <Circle radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Label text="J1" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="WHITE" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Label text="J2" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" minHeight="40.0" minWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label text="C'est au tour de " HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+                  <Label fx:id="joueurCourant" text="J1" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font></Label>
+                  <Label text=" de jouer !" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+               </children>
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </HBox>
+            <VBox alignment="CENTER" prefHeight="178.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="boutonPiege" mnemonicParsing="false" onAction="#ajouterPiege" text=" Ajouter un piège " VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets bottom="5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="boutonBloquer" disable="true" mnemonicParsing="false" onAction="#bloquerLigne" prefWidth="135.0" text="Bloquer une ligne" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets top="5.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Label fx:id="advertJeu" prefHeight="99.0" prefWidth="176.0" textAlignment="CENTER" textFill="RED" wrapText="true" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="5.0" top="10.0" />
+                     </padding>
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <HBox alignment="BOTTOM_CENTER" prefHeight="30.0" prefWidth="200.0" spacing="10.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Button fx:id="boutonQuitter" mnemonicParsing="false" onAction="#quitter" text="Quitter">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="boutonSauvegarder" disable="true" mnemonicParsing="false" onAction="#sauvegarder" text="Sauvegarder">
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="20.0" left="5.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</FlowPane>
